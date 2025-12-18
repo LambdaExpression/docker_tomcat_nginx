@@ -1,4 +1,4 @@
-FROM tomcat:8.0.36-jre8-alpine
+FROM tomcat:8.0.53-jre8-alpine
 
 # 安装nginx和依赖
 RUN apk add --no-cache nginx && \
